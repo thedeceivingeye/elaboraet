@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    	<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>ELRT: JS Testing</title>
+    	<link href="../style.css" rel="stylesheet" type="text/css" media="all">
+    	<link rel="icon" type="image/png" href="../pictures/ELRT2.png">
+  </head>
+  <body class="content">
+    <nav><a href="../index.html">[back] </a></nav>
+    <h2>JavaScript Experimentation</h2>
+    <p>This page holds no significance and is only here for JavaScript testing. Look around if you'd like.</p>
+    <p><strike>I have no idea what I'm doing.</strike></p>
+    <hr>
+    <ul><li id="demo1"></li></ul>
+    <script>
+      document.getElementById("demo1").innerHTML = "This line was written via a script.";
+      function qualifyURL(url) {
+        var a = document.createElement('a');
+        a.href = url;
+        return a.href;
+      }
+    </script> 
+    
+    <button type="button" onclick="document.getElementById('dateprg').innerHTML = Date()">[display date and time]</button>
+    <p id="dateprg">[The Date Goes Here]</p>
+    
+    <hr>
+    
+    <h3><b>More Interactives</b></h3>
+    
+    <button type="button" onclick="window.alert('Alerted you.')">alert me</button>
+    <br>
+    <button type="button" onclick="this.innerHTML = Math.floor(Math.random()*100)">random</button>
+    <br>
+    <button type="button" onclick="this.innerHTML = Math.random()*100">bigger random</button>
+    <br>
+    <textarea id="txtbox1" rows=4 cols=10>Textboxes are cool</textarea>
+    <br>
+    <button onclick="" class="btn1">Styled Button</button>
+    <script>object.style.boxSizing="border-box"</script>
+    
+  </body>
+</html>
