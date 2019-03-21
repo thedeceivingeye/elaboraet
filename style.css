@@ -2,6 +2,9 @@ body {
 	font-family: Georgia, serif;
 	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
 	font-style: normal;
+	max-width:900px;
+	margin:auto;
+	padding:5px;
 }
 
 a {
