@@ -1,0 +1,5 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Elaboraet Redirect
+# Redirect default Netlify subdomain to primary domain
+https://elaboraet.netlify.com/* https://www.elaboraet.ml/:splat 301!
