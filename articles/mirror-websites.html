@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>mirroring websites</title>
+
+<link href="../style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+
+<body class="content">
+
+<h1 align="center"><em>e l a b o r a e t</em></h1>
+
+<table width="100%" border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#333333">
+
+  <tr>
+
+    <th width="16%" scope="col"><a href="../resource.html">go back to guides </a></th>
+
+    <th width="17%" scope="col"><a href="mailto:elaboraet@gmail.com">report an issue</a></th>
+
+  </tr>
+
+</table>
+
+<h1 align="center">commands to mirror entire websites effectively</h1>
+
+<p align="center">To mirror virtually any site neatly and completely, use the below   command variations, depending on the   situation.</p>
+
+<h2 align="left">&gt; wget</h2>
+
+<p align="left"><strong>Full-speed crawl, when the host doesn't care or is powerful enough (most cases): </strong></p>
+
+<p align="left"><code>wget --mirror --convert-links --adjust-extension --page-requisites -r -p -e robots=off -U mozilla [URL WITH HTTP/HTTPS AND WWW]</code></p>
+
+<p align="left"><strong>Randomly-timed crawl; when host has potential to blacklist you</strong></p>
+
+<p align="left"><code> wget --mirror --random-wait --convert-links --adjust-extension --page-requisites -r -p -e robots=off -U mozilla [URL WITH HTTP/HTTPS AND WWW]</code></p>
+
+<p align="left">Note that the -e robots=off option, to my understanding, may cause the site to be downloaded differently than how it is on the server hosting it, which, in turn, has the potential to render some of its downloaded pages unusable because of link problems.</p>
+
+<hr />
+
+<h3>Explanations and Sources</h3>
+
+<p>Basic command structure is from: <a href="https://docere.neocities.org/images/screenshot02.png">here</a>.</p>
+
+<p>&quot;-r -p -e robots=off -U mozilla&quot; parameters are from: <a href="https://docere.neocities.org/images/screenshot01.png">here</a>.</p>
+
+<p>Both links contain explanations.</p>
+
+<hr />
+
+<h1>why mirror websites?</h1>
+
+<p>You might be confused as to why one would want to mirror a website,   let alone an entire website with all of its files. We've got WIFI,   right? Can't we just go to the website when we need it?</p>
+
+<p>While websites can contain amazingly useful information, they are   inherently volatile. They're run by servers that need to stay turned on   24/7, creating the illusion of it being available on-demand. This, of   course, means that they might be here one day and gone forever the next   day, hence they cannot ever completely be relied on to be available at   every given moment. The reason you would want to mirror a website, then,   especially if it contains important or obscure information, is to <em>preserve its information</em> and put the availability of that information into your own control.   This inevitably applies to all of the media on the Internet.</p>
+
+<hr />
+
+<h3>notable alternatives</h3>
+
+<ul>
+
+  <li><a href="https://www.httrack.com/">HTTrack</a> <a href="https://docere.neocities.org/wget-command.html#htt">[example]</a></li>
+
+  <li><a href="https://gurjitmehta.wordpress.com/2017/04/04/mirroring-websites-using-wget-httrack/">curl</a> (harder to use than wget)</li>
+
+  <li><a href="https://github.com/hartator/wayback-machine-downloader">wayback_machine_downloader</a></li>
+
+</ul>
+
+<h1 id="htt">viable alternative: httrack</h1>
+
+<p>Information on HTTrack can be found by clicking its link above.</p>
+
+<p>The command below for HTTrack (via terminal) proved to be just as   good if not better and more stable than wget for mirroring complicated   websites, because wget can at times fail to convert some links inside   html files.<strong>The issue, however, is that it's much slower.</strong></p>
+
+<p><code>httrack --connection-per-second=50 --sockets=80 --keep-alive   --display --verbose --advanced-progressinfo --disable-security-limits -n   -i -s0 -m -F 'Mozilla/5.0 (X11;U; Linux i686; en-GB; rv:1.9.1)   Gecko/20090624 Ubuntu/9.04 (jaunty) Firefox/3.5' -A100000000   -#L500000000 '[URL]'</code></p>
+
+<p>Explanation of the command and its origin can be found <a href="https://web.archive.org/web/20190212051659/https://www.archiveteam.org/index.php?title=HTTrack_options">here.</a></p>
+
+<p align="left">&nbsp;</p>
+
+</body>
+
+</html>
+
