@@ -7,4 +7,6 @@ body {
     margin: auto;
     background-image: url(images/tile8-marble.png);
     text-align: left;
+    font-style: normal;
+    font-weight: 400;
 }
