@@ -6,4 +6,5 @@ body {
     max-width: 900px;
     margin: auto;
     background-image: url(images/tile8-marble.png);
+    text-align: left;
 }
