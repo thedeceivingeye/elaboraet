@@ -33,8 +33,9 @@ body {
 */
 /* Style page content */
 .main {
+	height: 100%;
     margin-left: 160px; /* Same as the width of the sidebar */
-    border: 1px groove #000000;
+    border: inset;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
