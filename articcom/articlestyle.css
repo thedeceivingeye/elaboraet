@@ -15,7 +15,7 @@ body {
     overflow-x: hidden; /* Disable horizontal scroll */
     border: inset;
     padding-top: 20px;
-    background-color: ivory;
+    background-image: url(../images/tile2.png);
 }
 
 /* The navigation menu links */
