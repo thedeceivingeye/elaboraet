@@ -2,7 +2,6 @@
 
 body {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-    background-image: url("/images/tile13-bluebirds.png");
 }
 /* The sidebar menu */
 .sidebar {
@@ -15,7 +14,7 @@ body {
     overflow-x: hidden; /* Disable horizontal scroll */
     border: inset;
     padding-top: 20px;
-    background-image: url(../images/tile2.png);
+	background-image: url(../images/tile2.png);
 }
 
 /* The navigation menu links */
