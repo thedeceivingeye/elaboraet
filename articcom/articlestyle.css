@@ -1,6 +1,7 @@
 /* CSS Document */
 
 body {
+	max-width: 950px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 /* The sidebar menu */
