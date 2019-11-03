@@ -1,7 +1,6 @@
 /* CSS Document */
 
 body {
-	max-width: 1050px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: antiquewhite;
 }
@@ -30,6 +29,9 @@ body {
 
 /* Main content */
 .main {
+  max-width: 900px;
   margin-top: 30px; /* Add a top margin to avoid content overlay */
-  max-width: 1000px;
+  background-image: url("../pictures/paper.png");
+  margin-left: auto;
+  margin-right: auto;
 }
