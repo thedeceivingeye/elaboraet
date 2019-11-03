@@ -21,17 +21,18 @@ body {
 /* The navigation menu links */
 .sidebar a {
   padding: 6px 8px 6px 16px;
-  /*text-decoration: none;*/
+  text-decoration: none;
   /* font-size: 25px;*/
-  /*color: #818181;*/
+  color: #818181;
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color 
+/* When you mouse over the navigation links, change their style. */
 .sidebar a:hover {
-    color: #32387A;
+    color: #000000;
+	text-decoration: underline;
 }
-*/
+
 /* Style page content */
 .main {
     height: 100%;

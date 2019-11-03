@@ -16,10 +16,10 @@
 	<!-- TemplateBeginEditable name="links" -->
 	<div class="sidebar">
 		<ul>
-			<li><a href="/articcom/index.html">&lt; Article List</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Misc</a></li>
-			<li><a href="#">Contact</a></li>
+			<a href="/articcom/index.html">&lt; Article List</a>
+			<a href="#">Services</a>
+			<a href="#">Misc</a>
+			<a href="#">Contact</a>
 		</ul>
 	</div>
 	<!-- TemplateEndEditable -->
