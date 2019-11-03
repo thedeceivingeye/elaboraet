@@ -5,6 +5,7 @@
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>title here</title>
 
+<link href="/articcom/articlestyle-topnav.css" rel="stylesheet" type="text/css" />
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 	<style>background-image: url("/images/tile13-bluebirds.png");</style>
