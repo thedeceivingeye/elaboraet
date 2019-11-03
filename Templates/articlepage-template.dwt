@@ -9,11 +9,11 @@
 <!-- TemplateBeginEditable name="head" -->
 	<style>background-image: url("/images/tile13-bluebirds.png");</style>
 <!-- TemplateEndEditable -->
-<link href="/articcom/articlestyle-topnav.css" rel="stylesheet" type="text/css" />
+<link href="/articcom/articlestyle.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<div class="navbar">
+	<div class="sidebar">
 		<ul>
 			<a href="/articcom/index.html">&gt; Back</a>
 			<a href="#">&gt; Mail a Comment</a>
