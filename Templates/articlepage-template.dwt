@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<div class="sidebar" padding-right="16px">
+	<div class="navbar">
 		<ul>
 			<a href="/articcom/index.html">&gt; Back</a>
 			<a href="#">&gt; Mail a Comment</a>
