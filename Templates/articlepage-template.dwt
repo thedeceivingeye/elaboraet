@@ -13,18 +13,15 @@
 </head>
 
 <body class="content">
-	<!-- TemplateBeginEditable name="links" -->
 	<div class="sidebar">
 		<ul>
 			<a href="/articcom/index.html">&lt; Article List</a>
-			<a href="#">Services</a>
 			<a href="#">Misc</a>
 			<a href="#">Contact</a>
 		</ul>
 	</div>
-	<!-- TemplateEndEditable -->
 <div class="main">
-	<!-- TemplateBeginEditable name="EditRegion" -->
+	<!-- TemplateBeginEditable name="the article" -->
 	EditRegion
   <!-- TemplateEndEditable -->
 </div>
