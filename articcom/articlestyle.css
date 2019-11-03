@@ -3,6 +3,7 @@
 body {
 	max-width: 950px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-image: url("../images/tile15-bluewall.png");
 }
 /* The sidebar menu */
 .sidebar {
@@ -22,7 +23,7 @@ body {
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  /* font-size: 25px;*/
+  font-size: 18px;
   color: #818181;
   display: block;
 }
@@ -35,6 +36,7 @@ body {
 
 /* Style page content */
 .main {
+	background-image: url("../pictures/006-Paper-Kraft.png");
     height: 100%;
     margin-left: 160px; /* Same as the width of the sidebar */
     border: inset;
