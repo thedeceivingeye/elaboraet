@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>elaboraet</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="content">
+<h1 align="center"><em>e l a b o r a e t</em></h1>
+<table width="900" border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#333333">
+  <tr>
+    <th width="20%" style="text-align: center" scope="col"><a href="/index.html">home </a></th>
+    <th width="20%" style="text-align: center" scope="col"><a href="/articcom/index.html">articles &amp; commentary</a></th>
+    <th width="20%" style="text-align: center" scope="col"><a href="../books.html">books &amp; literature</a></th>
+    <th width="20%" style="text-align: center" scope="col"><a href="../resource.html">resources</a></th>
+    <th width="20%" style="text-align: center" scope="col"><a href="../blog.html">web log</a></th>
+  </tr>
+</table>
+<div id="content">
+<!-- TemplateBeginEditable name="parentpage-content" -->
+  <p align="left">Content</p>
+<!-- TemplateEndEditable -->
+</div>
+</body>
+
+</html>
+
