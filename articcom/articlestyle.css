@@ -3,7 +3,7 @@
 body {
 	max-width: 950px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	background-image: url("../images/tile15-bluewall.png");
+	background-color: antiquewhite;
 }
 /* The sidebar menu */
 .sidebar {
