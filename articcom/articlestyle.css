@@ -36,10 +36,15 @@ body {
     height: 100%;
     margin-left: 160px; /* Same as the width of the sidebar */
     border: inset;
-	padding-top: 0px;
-	padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 10px;
     padding-left: 10px;
+    text-align: left;
+}
+
+.block-quote {
+	padding-left: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
