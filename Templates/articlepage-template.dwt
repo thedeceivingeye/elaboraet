@@ -13,11 +13,11 @@
 </head>
 
 <body>
-	<div class="sidebar">
+	<div class="sidebar" padding-right="16px">
 		<ul>
-			<a href="/articcom/index.html">&lt; Article List</a>
-			<a href="#">Misc</a>
-			<a href="#">Contact</a>
+			<a href="/articcom/index.html">&gt; Back</a>
+			<a href="#">&gt; Mail a Comment</a>
+			<a href="#"> &gt; Contact</a>
 		</ul>
 	</div>
 <div class="main">
