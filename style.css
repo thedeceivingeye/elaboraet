@@ -7,6 +7,6 @@ body {
     margin: auto;
     background-image: url(images/tile8-marble.png);
     text-align: left;
-    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 400;
 }
