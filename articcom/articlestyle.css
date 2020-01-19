@@ -2,7 +2,7 @@
 
 body {
 	max-width: 1050px;
-    	font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 	background-color: antiquewhite;
 }
 /* The sidebar menu */
@@ -52,6 +52,32 @@ body {
 
 .block-quote {
 	padding-left: 20px;
+}
+.divquote:before {
+    content: open-quote;
+}
+.divquote:after {
+    content: close-quote;
+}
+.divquote {
+    margin-left: 2em;
+    padding: 5px;
+    border: 3px groove gray;
+    border-radius: 5px;
+    font-style: italic;
+}
+.picbox {
+    overflow: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+.picbox img {
+    border: 5px groove grey;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    display: block;
+    height: 256px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
