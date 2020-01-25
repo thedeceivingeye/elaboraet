@@ -14,7 +14,7 @@ body {
     top: 0; /* Stay at the top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
-    border: inset;
+    border: outset;
     padding-top: 20px;
 	background-image: url(../images/tile2.png);
 }
