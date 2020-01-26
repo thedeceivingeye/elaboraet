@@ -17,6 +17,7 @@ body {
 	border-radius: 10px; */
 	padding: 10px; 
 	color: white;
+	margin-top: 10px; 
 	background-image: url("images/tile13-bluebirds.png");
 	background-color: #ffff;
 	background-blend-mode: multiply;
