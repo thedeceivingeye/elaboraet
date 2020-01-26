@@ -13,8 +13,8 @@ body {
 
 .homepage-quote {
 	overflow:auto; 
-	border: 1px groove black; 
-	border-radius: 10px; 
+	/*border: 1px groove black; 
+	border-radius: 10px; */
 	padding: 10px; 
 	color: white;
 	background-image: url("images/tile13-bluebirds.png");
